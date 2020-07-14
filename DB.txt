@@ -1,0 +1,5 @@
+create table usermanagement
+(userid serial primary key,
+name varchar not null,
+location varchar,
+age integer);
